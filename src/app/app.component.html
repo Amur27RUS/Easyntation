@@ -1,21 +1,24 @@
 <tui-root class="content">
   <div >
-  <h1 class="tui-text_h1 header-title" >{{title}}</h1>
-  <p class="sub-text">Presentations made easy!</p>
+    <div class="card">
+    </div>
+    <h1 class="tui-text_h1 header-title" >{{title}}</h1>
+    <p class="sub-text">Presentations made easy!</p>
 
-  <div class="input-content tui-space_top-5">
-    <tui-text-area class="text-input" formControlName="testValue">Paste file content here</tui-text-area>
-    <h2 class="inputs-divider">OR</h2>
-    <tui-input-files></tui-input-files>
-  </div>
-  <button
-    tuiButton
-    type="button"
-    appearance="primary"
-    class="submit-btn"
-  >
-    Convert file to .pptx
-  </button>
+    <div class="input-content tui-space_top-5">
+      <tui-text-area class="text-input" formControlName="testValue">Paste file content here</tui-text-area>
+      <h2 class="inputs-divider">OR</h2>
+      <tui-input-files></tui-input-files>
+    </div>
+    <button
+      tuiButton
+      type="button"
+      appearance="primary"
+      class="submit-btn"
+    >
+      Convert file to .pptx
+    </button>
   </div>
 
 </tui-root>
+
