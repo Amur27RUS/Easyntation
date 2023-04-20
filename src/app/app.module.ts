@@ -2,8 +2,9 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import {TuiButtonModule, TuiRootModule} from "@taiga-ui/core";
+import {TuiButtonModule, TuiLinkModule, TuiLoaderModule, TuiRootModule} from "@taiga-ui/core";
 import {TuiInputFilesModule, TuiTextAreaModule} from "@taiga-ui/kit";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,11 @@ import {TuiInputFilesModule, TuiTextAreaModule} from "@taiga-ui/kit";
     TuiRootModule,
     TuiTextAreaModule,
     TuiInputFilesModule,
-    TuiButtonModule
+    TuiButtonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    TuiLoaderModule,
+    TuiLinkModule
   ],
   providers: [],
   bootstrap: [AppComponent]
