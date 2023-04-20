@@ -19,7 +19,7 @@ export class AppComponent implements OnInit{
   sendDocument = false;
 
   loadingFile: TuiFileLike | null = {
-    name: 'Insert doc here',
+    name: 'Your document',
   };
 
   removeLoading(): void {
